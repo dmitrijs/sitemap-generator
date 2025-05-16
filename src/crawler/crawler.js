@@ -31,11 +31,8 @@ class Crawler {
             return window.chrome.runtime.sendMessage({urls: []});
         }
 
-        // wait for onload
-        window.onload = Crawler.findLinks;
-
         // but ensure the function will ultimately run
-        window.setTimeout(Crawler.findLinks, 500);
+        window.setTimeout(Crawler.findLinks, 1500);
     }
 
     /**
