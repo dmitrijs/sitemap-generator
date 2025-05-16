@@ -5,8 +5,8 @@
   "author": "Neea Rusch",
   "description": "Use chrome browser to generate sitemaps for your websites. This extension crawls website like a real user.",
   "dependencies": {
-    "extension-cli": "^0.8.9",
-    "standard-version": "^7.1.0"
+    "extension-cli": "*",
+    "standard-version": "*"
   },
   "repository": {
     "type": "git",

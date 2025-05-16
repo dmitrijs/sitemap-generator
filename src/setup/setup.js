@@ -119,3 +119,5 @@ class Setup {
 }
 
 export default Setup;
+
+(() => new Setup())();
