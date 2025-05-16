@@ -1,3 +1,7 @@
+# Why this fork?
+
+Allow page to fully load before looking for the links.
+
 # Sitemap Generator
 
 Generate sitemaps using Chrome browser. Especially intended for generating sitemaps for single-page apps.
